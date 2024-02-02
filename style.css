@@ -257,6 +257,9 @@ h4,
   margin: auto;
 }
 @media screen and (max-width: 800px) {
+    .iconspart .camera:hover p i{
+        margin-top: 5%;
+    }
   .iconspart {
     width: 100%;
     margin-top: 15%;
@@ -388,8 +391,8 @@ h4,
     padding-top: 20%;
   }
   .newspart .div1pic {
-    height: 180px;
-    width: 200px;
+    height: 160px;
+    width: 180px;
   }
   .newspart .div1 {
     width:80%;
@@ -397,7 +400,7 @@ h4,
     margin-left: 10%;
   }
   .newspart .para3 {
-    width: 52%;
+    width: 60%;
   }
 }
 
