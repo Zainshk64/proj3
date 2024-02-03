@@ -119,6 +119,7 @@ button:hover {
 .tophead {
   background-color: rgba(227, 152, 109, 0.948);
   width: 20%;
+  height:60px;
   text-align: center;
   margin: auto;
   transform: rotate(4deg);
@@ -126,6 +127,7 @@ button:hover {
 .tophead h1 {
   transform: rotate(-5deg);
   width: auto;
+  text-align: center;
 }
 .sec2 .outpic {
   height: 400px;
@@ -567,4 +569,158 @@ h4,
     }
 
     
+}
+/* center */
+.center{
+  background-image: url(./images/sea.jpeg);
+  height: 100px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 5%;
+
+}
+.center a{
+  text-decoration: none;
+  text-transform: capitalize;
+  margin-right: 8%;
+  font-size: 1.5rcap;
+  
+  
+
+}
+/* price */
+.price1{
+  height: auto;
+  width: 300px;
+  background-color: rgba(109, 115, 115, 0.183);
+  overflow: hidden;
+}
+.priceup{
+  height: 130px;
+  width: 330px;
+  background-size: cover;
+  background-image: url(./images/main.jpg);
+  transform: rotate(-10deg);
+  margin-left: -20px;
+  text-align: center;
+  background-position: center;
+  margin-top: -50px;
+  
+
+
+}
+.priceup h2{
+  font-weight: 500;
+  opacity: 0.8;
+  font-size: 1.8rcap;
+  text-transform: uppercase;
+  padding-top: 18%;
+  transform: rotate(10deg);
+}
+
+.price1 .dollar{
+  text-align: center;
+  margin-top: -7%;
+}
+.dollar p i{
+  color: black;
+  font-size: 20px;
+
+
+}
+.price1 .dollar p{
+  font-size: 43px;
+
+
+}
+.dollar hr{
+  background-color: rgba(227, 152, 109, 0.948);
+  height:3px;
+  width: 27%;
+  margin-top: -8%;
+
+}
+.dollar pre{
+  color:  rgba(0, 0, 0, 0.497);
+  font-size: 1.2rcap;
+  text-transform: capitalize;
+}
+.dollar button{
+  height: 45px;
+  width: 50%;
+  background-color: rgba(227, 152, 109, 0.948);
+  border: none;
+
+}
+.dollar button:hover{
+  background-color:  black;
+  color:white;
+}
+
+.priceflex{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+
+@media screen and (max-width:800px) {
+  .priceflex{
+    margin-top: 20%;
+  }
+  .price1{
+    margin-top: 10%;
+    width:274px;
+  }
+  .priceup{
+    height: 130px;
+    width: 300px;
+  }
+
+  
+}
+/* footer */
+
+.black{
+  height: 600px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.818);
+}
+.black .up{ 
+  position: relative;
+  top: -15px;
+}
+.black .up p{
+  height: 40px;
+  width: 40px;
+  background-color: rgba(227, 152, 109, 0.913);
+  text-align: center;
+  border-radius: 50%;
+  margin: auto;
+}
+
+
+.box1 p{
+  color: white;
+
+}
+
+.box1 .para6{
+  width: 27%;
+  font-size: 1rcap;
+  opacity: 0.8;
+}
+.box1 p i{
+  color: rgb(253, 157, 101);
+  margin-left: 5px;
+  
+
+
+}
+.box1 p  i:hover{
+  transform: scale(1.3);
+  transition: all ease 1s;
 }
