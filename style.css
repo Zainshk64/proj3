@@ -69,9 +69,7 @@ nav .mid a {
 }
 nav .mid a:hover {
   color: rgba(255, 255, 255, 0.625);
-  transform: scale(2);
   transition: all ease-in-out 2ms;
-  margin-top: -10%;
 }
 
 nav .right {
@@ -82,14 +80,14 @@ nav .right p {
 }
 nav .right p i:hover {
   cursor: pointer;
-  transform: scale(1.3);
+  /* transform: scale(1.3); */
   transition: all ease-in-out 2ms;
   color: rgba(255, 255, 255, 0.782);
 }
 
 /*  */
 
-input{
+#check{
   display: none;
 }
 label{
@@ -117,11 +115,13 @@ label{
     display: block;
     position: absolute;
     right: -100%;
-    top: 480px;
+    /* left: 100%; */
+    top: 433px;
     height: 100px;
     width: 84%;
     background-color: rgb(95, 126, 154);
     text-align: center;
+    transition: .4s ease-in-out;
     
   }
   nav .right p{
@@ -133,14 +133,17 @@ label{
 
   }
   nav .mid{
-    z-index: 10;
     display: none;
     text-align: center;
     position: absolute;
     top: 100px;
-    height: auto;
-    width: 80%;    
+    height:0;
+    width: 80%;
+     left: 100%;
+
     background-color: rgb(95, 126, 154);
+    overflow: hidden;
+    transition: .4s ease-in-out
   }
   nav .mid a{
     padding: 5% 0;
@@ -164,11 +167,16 @@ label{
     display: block ;
 
 }
+
 #check:checked~ .right{
   right: 0%;
+  /* top: 400px; */
 }
 #check:checked~ .mid{
+  height: auto;
+  left: 0;
   display: block;
+  /* top: 0px; */
   
 }
 #about{
