@@ -116,8 +116,8 @@ label{
     position: absolute;
     right: -100%;
     /* left: 100%; */
-    top: 433px;
-    height: 100px;
+    top: 499px;
+    height: 40px;
     width: 84%;
     background-color: rgb(95, 126, 154);
     text-align: center;
@@ -129,7 +129,7 @@ label{
     text-align: center;
   }
   nav .right p i{
-    padding-top: 10%;
+    padding-top: 2%;
 
   }
   nav .mid{
@@ -170,7 +170,9 @@ label{
 
 #check:checked~ .right{
   right: 0%;
-  /* top: 400px; */
+  position: fixed;
+  top: 450px;
+  /* top: 500px; */
 }
 #check:checked~ .mid{
   height: auto;
